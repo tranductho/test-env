@@ -1,0 +1,16 @@
+{
+  "name": "test-env",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=development node index.js",
+    "stage": "NODE_ENV=staging node index.js",
+    "prod": "NODE_ENV=production node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.4.5"
+  }
+}
